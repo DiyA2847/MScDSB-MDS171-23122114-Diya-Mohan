@@ -36,7 +36,7 @@ while True:
     print("3. List all names")
     print("4.  Exit")
 
-    choice = int(input("Enter your choice :"))
+    choice = int(input("Enter your choice: "))
     if choice ==1:
         userInp = input("Enter a Name")
         retVal = storeName(userInp)
